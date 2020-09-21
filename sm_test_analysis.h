@@ -6,9 +6,11 @@
 #include <TFile.h>
 #include "SampleAnalyzer/Process/Analyzer/AnalyzerBase.h"
 
+TH1F* plot_mass_check;  
+TH1F* plot_invar_mass;  
+
 namespace MA5{
-  //TH1F* plot_mass_check;
-  //TH1F* plot_invar_mass;
+
   class sm_test_analysis : public AnalyzerBase
   {
     INIT_ANALYSIS(sm_test_analysis,"sm_test_analysis")
