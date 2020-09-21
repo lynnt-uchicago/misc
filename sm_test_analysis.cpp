@@ -11,8 +11,6 @@ bool sm_test_analysis::Initialize(const MA5::Configuration& cfg, const std::map<
 {
   cout << "BEGIN Initialization" << endl;
   // initialize variables, histos
-  TH1F* plot_mass_check;
-  TH1F* plot_invar_mass;
   plot_mass_check = new TH1F("plot_mass_check", "mass_check", 200, 0., 200.);
   plot_invar_mass = new TH1F("plot_invar_mass", "invar_mass", 200, 0., 200.);
 
